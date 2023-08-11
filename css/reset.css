@@ -1,0 +1,90 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+@import 'animate.css';
+
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: normal;
+    word-break: keep-all;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+p {
+    word-break: keep-all;
+}
+
+
+
+
+
+
+
+.inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* <💥섹션별 제목 공통 디자인> */
+.section_tit {
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.section_tit strong {
+    display: block;
+    font-size: 15px;
+    margin: 0 0 40px 0;
+    color: #999;
+}
+
+.section_tit strong .tit_line {
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background: #999;
+    margin: 0 15px;
+    vertical-align: middle;
+}
+
+.section_tit h2 {
+    font-size: 55px;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.section_tit p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* <💥 끝> */
